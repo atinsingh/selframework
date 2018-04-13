@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="111" started-at="2018-04-13T02:33:16Z" finished-at="2018-04-13T02:33:16Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="111" started-at="2018-04-13T02:33:16Z" finished-at="2018-04-13T02:33:16Z">
+      <class name="co.pragra.selboot.testscripts.TestClass">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:co.pragra.selboot.testscripts.TestClass@523884b2]" name="setUp" is-config="true" duration-ms="15488" started-at="2018-04-12T22:33:01Z" finished-at="2018-04-12T22:33:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testcase1()[pri:0, instance:co.pragra.selboot.testscripts.TestClass@523884b2]" name="testcase1" duration-ms="59" started-at="2018-04-12T22:33:16Z" finished-at="2018-04-12T22:33:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase1 -->
+      </class> <!-- co.pragra.selboot.testscripts.TestClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
