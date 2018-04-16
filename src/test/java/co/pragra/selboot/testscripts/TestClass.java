@@ -9,13 +9,13 @@ import co.pragra.selboot.drivermanager.DriverManager;
 
 public class TestClass extends DriverManager {
 
-	WebDriver driver;
+	//WebDriver driver;
 	
-	@BeforeSuite
-	public void setUp(){
-		driver = getDriverInstance();
-		driver.get(AppConfig.getProperty("site.url"));
-	}
+//	@BeforeSuite
+//	public void setUp(){
+//		driver = getDriverInstance();
+//		driver.get(AppConfig.getProperty("site.url"));
+//	}
 	
 	
 	@Test
@@ -25,18 +25,17 @@ public class TestClass extends DriverManager {
 
 	
 	@Test
-<<<<<<< HEAD
+
 	public void testcase3(){
 		System.out.println("Added for git");
 	}
 
-=======
+
 	public void testCase5(){
 		System.out.println("Added for git demo again");
 	}
 
 
->>>>>>> 479f8777927b461eb7206e5beb1b518803890c98
 	@Test
 	public void testCase2(){
 		System.out.println("Added after git");

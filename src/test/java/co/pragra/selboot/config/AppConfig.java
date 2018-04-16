@@ -27,7 +27,7 @@ public class AppConfig {
 		
 	}
 	
-	public static String getProperty(String key){
+	public static String get(String key){
 		if(properties==null){
 			new AppConfig();
 		}
