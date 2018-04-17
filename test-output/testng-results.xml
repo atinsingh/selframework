@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="1509" started-at="2018-04-15T23:36:35Z" finished-at="2018-04-15T23:36:37Z">
+  <suite name="Default suite" duration-ms="3554" started-at="2018-04-17T02:44:01Z" finished-at="2018-04-17T02:44:04Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="1509" started-at="2018-04-15T23:36:35Z" finished-at="2018-04-15T23:36:37Z">
+    <test name="Default test" duration-ms="3554" started-at="2018-04-17T02:44:01Z" finished-at="2018-04-17T02:44:04Z">
       <class name="co.pragra.selboot.testscripts.HomePageTest">
-        <test-method status="PASS" signature="testSetup()[pri:0, instance:co.pragra.selboot.testscripts.HomePageTest@66d3eec0]" name="testSetup" is-config="true" duration-ms="3961" started-at="2018-04-15T19:36:31Z" finished-at="2018-04-15T19:36:35Z">
+        <test-method status="PASS" signature="testSetup()[pri:0, instance:co.pragra.selboot.testscripts.HomePageTest@21e360a]" name="testSetup" is-config="true" duration-ms="11490" started-at="2018-04-16T22:43:49Z" finished-at="2018-04-16T22:44:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSetup -->
-        <test-method status="PASS" signature="testInputBoxWrite()[pri:0, instance:co.pragra.selboot.testscripts.HomePageTest@66d3eec0]" name="testInputBoxWrite" duration-ms="1493" started-at="2018-04-15T19:36:35Z" finished-at="2018-04-15T19:36:37Z">
+        <test-method status="PASS" signature="testInputBoxWrite()[pri:0, instance:co.pragra.selboot.testscripts.HomePageTest@21e360a]" name="testInputBoxWrite" duration-ms="3493" started-at="2018-04-16T22:44:01Z" finished-at="2018-04-16T22:44:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testInputBoxWrite -->

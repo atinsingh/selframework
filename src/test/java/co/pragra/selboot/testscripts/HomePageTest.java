@@ -18,7 +18,10 @@ public class HomePageTest extends DriverManager {
 	
 	@BeforeSuite
 	public void testSetup(){
+		
+		driver.manage().window().maximize();
 		driver.get("http://booking.com");
+		driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
 		homepage = new HomePage(driver);
 	}
 	
@@ -26,7 +29,8 @@ public class HomePageTest extends DriverManager {
 	public void testInputBoxWrite(){
 		//driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		//driver.findElement(By.name("ss")).sendKeys("Hawaii");
-		homepage.popuplateInputDestiNation("Hawaii").checkInDate("April 2018", "22");
+		homepage.popuplateInputDestiNation("Paris").checkInDate("April 2018", "29");
+		homepage.selectNumberOfAdult("10");
 	}
 	
 //	@Test
