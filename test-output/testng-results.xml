@@ -1,21 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="856" started-at="2018-04-18T02:45:07Z" finished-at="2018-04-18T02:45:08Z">
+  <suite name="Default suite" duration-ms="485" started-at="2018-04-26T01:49:59Z" finished-at="2018-04-26T01:50:00Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="856" started-at="2018-04-18T02:45:07Z" finished-at="2018-04-18T02:45:08Z">
-      <class name="co.pragra.selboot.testscripts.SelectTestClass">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:co.pragra.selboot.testscripts.SelectTestClass@21e360a]" name="setUp" is-config="true" duration-ms="1980" started-at="2018-04-17T22:45:05Z" finished-at="2018-04-17T22:45:07Z">
+    <test name="Default test" duration-ms="485" started-at="2018-04-26T01:49:59Z" finished-at="2018-04-26T01:50:00Z">
+      <class name="co.pragra.selboot.testscripts.HomePageTest">
+        <test-method status="PASS" signature="testSetup()[pri:0, instance:co.pragra.selboot.testscripts.HomePageTest@4738a206]" name="testSetup" is-config="true" duration-ms="17716" started-at="2018-04-26T04:49:41Z" finished-at="2018-04-26T04:49:59Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testSelect()[pri:0, instance:co.pragra.selboot.testscripts.SelectTestClass@21e360a]" name="testSelect" duration-ms="821" started-at="2018-04-17T22:45:07Z" finished-at="2018-04-17T22:45:08Z">
+        </test-method> <!-- testSetup -->
+        <test-method status="PASS" signature="checkSlider()[pri:0, instance:co.pragra.selboot.testscripts.HomePageTest@4738a206]" name="checkSlider" duration-ms="336" started-at="2018-04-26T04:49:59Z" finished-at="2018-04-26T04:49:59Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testSelect -->
-      </class> <!-- co.pragra.selboot.testscripts.SelectTestClass -->
+        </test-method> <!-- checkSlider -->
+        <test-method status="PASS" signature="testCheckBox()[pri:0, instance:co.pragra.selboot.testscripts.HomePageTest@4738a206]" name="testCheckBox" duration-ms="2" started-at="2018-04-26T04:49:59Z" finished-at="2018-04-26T04:49:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckBox -->
+        <test-method status="PASS" signature="testInputBoxWrite()[pri:0, instance:co.pragra.selboot.testscripts.HomePageTest@4738a206]" name="testInputBoxWrite" duration-ms="5" started-at="2018-04-26T04:50:00Z" finished-at="2018-04-26T04:50:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInputBoxWrite -->
+        <test-method status="PASS" signature="testtoCheckSize()[pri:0, instance:co.pragra.selboot.testscripts.HomePageTest@4738a206]" name="testtoCheckSize" duration-ms="3" started-at="2018-04-26T04:50:00Z" finished-at="2018-04-26T04:50:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testtoCheckSize -->
+      </class> <!-- co.pragra.selboot.testscripts.HomePageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
