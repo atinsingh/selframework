@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <parameter name="url" value="https://www.pragra.co/sel.html"/>
+    <classes>
+      <class name="co.pragra.selboot.testscripts.HomePageTest">
+        <methods>
+          <include name="checkSlider"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
+          <include name="testExcelReader"/>
+          <include name="test"/>
+          <include name="testAlert"/>
+          <include name="testCSVDriver"/>
+          <include name="testInputBoxWrite"/>
+          <include name="testCheckBox"/>
+          <include name="testtoCheckSize"/>
+          <include name="takeScreenShot"/>
+        </methods>
+      </class> <!-- co.pragra.selboot.testscripts.HomePageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

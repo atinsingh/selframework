@@ -5,8 +5,9 @@
     <classes>
       <class name="co.pragra.selboot.testscripts.HomePageTest">
         <methods>
+          <include name="close"/>
           <include name="testSetup"/>
-          <include name="testAlert"/>
+          <include name="testExcelReader"/>
         </methods>
       </class> <!-- co.pragra.selboot.testscripts.HomePageTest -->
     </classes>

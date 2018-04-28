@@ -1,32 +1,141 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="485" started-at="2018-04-26T01:49:59Z" finished-at="2018-04-26T01:50:00Z">
+  <suite name="Default suite" duration-ms="2234" started-at="2018-04-28T17:11:48Z" finished-at="2018-04-28T17:11:50Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="485" started-at="2018-04-26T01:49:59Z" finished-at="2018-04-26T01:50:00Z">
+    <test name="Default test" duration-ms="2234" started-at="2018-04-28T17:11:48Z" finished-at="2018-04-28T17:11:50Z">
       <class name="co.pragra.selboot.testscripts.HomePageTest">
-        <test-method status="PASS" signature="testSetup()[pri:0, instance:co.pragra.selboot.testscripts.HomePageTest@4738a206]" name="testSetup" is-config="true" duration-ms="17716" started-at="2018-04-26T04:49:41Z" finished-at="2018-04-26T04:49:59Z">
+        <test-method status="PASS" signature="testSetup()[pri:0, instance:co.pragra.selboot.testscripts.HomePageTest@43dac38f]" name="testSetup" is-config="true" duration-ms="1693" started-at="2018-04-28T13:11:46Z" finished-at="2018-04-28T13:11:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSetup -->
-        <test-method status="PASS" signature="checkSlider()[pri:0, instance:co.pragra.selboot.testscripts.HomePageTest@4738a206]" name="checkSlider" duration-ms="336" started-at="2018-04-26T04:49:59Z" finished-at="2018-04-26T04:49:59Z">
+        <test-method status="PASS" signature="checkSlider()[pri:0, instance:co.pragra.selboot.testscripts.HomePageTest@43dac38f]" name="checkSlider" duration-ms="6" started-at="2018-04-28T13:11:48Z" finished-at="2018-04-28T13:11:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkSlider -->
-        <test-method status="PASS" signature="testCheckBox()[pri:0, instance:co.pragra.selboot.testscripts.HomePageTest@4738a206]" name="testCheckBox" duration-ms="2" started-at="2018-04-26T04:49:59Z" finished-at="2018-04-26T04:49:59Z">
+        <test-method status="PASS" signature="test()[pri:0, instance:co.pragra.selboot.testscripts.HomePageTest@43dac38f]" name="test" duration-ms="2" started-at="2018-04-28T13:11:48Z" finished-at="2018-04-28T13:11:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="testAlert()[pri:0, instance:co.pragra.selboot.testscripts.HomePageTest@43dac38f]" name="testAlert" duration-ms="1577" started-at="2018-04-28T13:11:48Z" finished-at="2018-04-28T13:11:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAlert -->
+        <test-method status="PASS" signature="testCSVDriver(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:co.pragra.selboot.testscripts.HomePageTest@43dac38f]" name="testCSVDriver" duration-ms="3" started-at="2018-04-28T13:11:50Z" data-provider="dataProvider" finished-at="2018-04-28T13:11:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[﻿Atin ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Singh]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Mississiuga]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Java]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Anyotherinfo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCSVDriver -->
+        <test-method status="PASS" signature="testCSVDriver(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:co.pragra.selboot.testscripts.HomePageTest@43dac38f]" name="testCSVDriver" duration-ms="1" started-at="2018-04-28T13:11:50Z" data-provider="dataProvider" finished-at="2018-04-28T13:11:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vivek]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ghartan]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Bramption]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Unix]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[DontKnow]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCSVDriver -->
+        <test-method status="PASS" signature="testCSVDriver(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:co.pragra.selboot.testscripts.HomePageTest@43dac38f]" name="testCSVDriver" duration-ms="2" started-at="2018-04-28T13:11:50Z" data-provider="dataProvider" finished-at="2018-04-28T13:11:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sandeep]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Singh]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Bramption]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Java]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[DontKnow]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCSVDriver -->
+        <test-method status="PASS" signature="testCheckBox()[pri:0, instance:co.pragra.selboot.testscripts.HomePageTest@43dac38f]" name="testCheckBox" duration-ms="1" started-at="2018-04-28T13:11:50Z" finished-at="2018-04-28T13:11:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCheckBox -->
-        <test-method status="PASS" signature="testInputBoxWrite()[pri:0, instance:co.pragra.selboot.testscripts.HomePageTest@4738a206]" name="testInputBoxWrite" duration-ms="5" started-at="2018-04-26T04:50:00Z" finished-at="2018-04-26T04:50:00Z">
+        <test-method status="PASS" signature="testInputBoxWrite()[pri:0, instance:co.pragra.selboot.testscripts.HomePageTest@43dac38f]" name="testInputBoxWrite" duration-ms="2" started-at="2018-04-28T13:11:50Z" finished-at="2018-04-28T13:11:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testInputBoxWrite -->
-        <test-method status="PASS" signature="testtoCheckSize()[pri:0, instance:co.pragra.selboot.testscripts.HomePageTest@4738a206]" name="testtoCheckSize" duration-ms="3" started-at="2018-04-26T04:50:00Z" finished-at="2018-04-26T04:50:00Z">
+        <test-method status="PASS" signature="testSetup()[pri:0, instance:co.pragra.selboot.testscripts.HomePageTest@43dac38f]" name="testSetup" duration-ms="537" started-at="2018-04-28T13:11:50Z" finished-at="2018-04-28T13:11:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="PASS" signature="testtoCheckSize()[pri:0, instance:co.pragra.selboot.testscripts.HomePageTest@43dac38f]" name="testtoCheckSize" duration-ms="2" started-at="2018-04-28T13:11:50Z" finished-at="2018-04-28T13:11:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testtoCheckSize -->
+        <test-method status="PASS" signature="close()[pri:0, instance:co.pragra.selboot.testscripts.HomePageTest@43dac38f]" name="close" is-config="true" duration-ms="149" started-at="2018-04-28T13:11:50Z" finished-at="2018-04-28T13:11:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
       </class> <!-- co.pragra.selboot.testscripts.HomePageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

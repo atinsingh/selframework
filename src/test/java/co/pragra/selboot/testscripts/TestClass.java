@@ -1,5 +1,6 @@
 package co.pragra.selboot.testscripts;
 
+import org.testng.annotations.Test;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
@@ -31,6 +32,7 @@ public class TestClass extends DriverManager {
 	}
 
 
+	@Test
 	public void testCase5(){
 		System.out.println("Added for git demo again");
 	}
