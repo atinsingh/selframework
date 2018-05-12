@@ -3,13 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="co.pragra.selboot.testscripts.HomePageTest">
+      <class name="co.pragra.selboot.testscripts.WindowTest">
         <methods>
-          <include name="close"/>
-          <include name="testSetup"/>
-          <include name="testExcelReader"/>
+          <include name="setUp"/>
+          <include name="test1"/>
         </methods>
-      </class> <!-- co.pragra.selboot.testscripts.HomePageTest -->
+      </class> <!-- co.pragra.selboot.testscripts.WindowTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

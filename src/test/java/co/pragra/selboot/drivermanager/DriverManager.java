@@ -12,7 +12,7 @@ public class DriverManager {
 	
 	
 	
-	private static WebDriver driver;
+	private static WebDriver driver; // Static is always on class level -- Single copy of instance is preserved
 	private static final Logger logger = Logger.getLogger(DriverManager.class);
 	
 	public DriverManager(){
